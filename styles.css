@@ -1,3 +1,19 @@
 img {
     width: 50%;
 }
+
+.title{
+text-align:center;
+}
+
+.title-nav{
+text-decoration-line:underline;
+}
+
+nav{
+display:flex;
+}
+
+.topbar-button{
+justify-content:center;
+}
