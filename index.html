@@ -4041,67 +4041,270 @@
   return S.noConflict = function (e) {
     return C.$ === S && (C.$ = Gt), e && C.jQuery === S && (C.jQuery = Vt), S;
   }, "undefined" == typeof e && (C.jQuery = C.$ = S), S;
-});</script><style>img {
-    width: 50%;
+});</script><style>body {
+    background-image: url("https://images.unsplash.com/photo-1632226901385-e07fe19a345e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    Background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
 }
 
-.title{
-text-align:center;
+img {
+    width: 80%;
+
 }
 
-.title-nav{
-text-decoration-line:underline;
+.title {
+    text-align: center;
+    text-decoration-line: underline;
 }
 
-nav{
-display:flex;
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
-.topbar-button{
-justify-content:center;
+.topbar-button-about {
+    margin: 10px;
+    font-size:18px;
 }
-</style></head>
+
+
+.topbar-button-call {
+    margin: 10px;
+     font-size:18px;
+}
+
+.topbar-button-P_Work{
+     font-size:18px;
+}
+
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background: rgba(77, 168, 161, .3);
+}
+
+.starting-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+    margin-top: 100px;
+
+}
+
+.startin-picture {
+    width: 36%;
+    padding: 10px;
+}
+
+.article-text {
+    background: rgba(77, 168, 161, .3);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.previous-projects {
+    width: 30%;
+    padding-left: 35%;
+    text-align: center;
+    display: none;
+    font-size: 30px;
+
+
+}
+
+.project-text {
+    color: red;
+}
+
+.credits {
+    background: rgba(77, 168, 161, .3);
+    font-size: 12px;
+    color: white;
+
+}
+
+.link-for-credits {
+    color: blue;
+}
+
+.email-box {
+    display: none;
+    color: white;
+    justify-content: center;
+}
+
+.active {
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* The submit button green color*/
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}</style></head>
     <body>
         <header>
             <div class="title-nav">
                 <h1 class="title">AVAEN RAINS </h1>
                 <nav>
                     <div class="topbar">
-                        <button class="topbar-button">Home</button>
-                        <button class="topbar-button">About</button>
-                        <button class="topbar-button">Resume</button>
-                        <button class="topbar-button">Call</button>
+
+                        <button class="nav topbar-button-about active">About</button>
+                        <button class="nav topbar-button-P_Work">Previous Work</button>
+                        <button class="nav topbar-button-call">Call</button>
                     </div>
                 </nav>
             </div>
         </header>
-        <section>
+        <div class="main-content-home">
+            <section>
 
-            <aside>
-                <div>
-                    <img src="https://i.ibb.co/VQ4kWMH/Avaen-Rains-1.jpg" alt="Avaen-Rains-1">
-                </div>
-
-                <div>
-                    I am still in highschool "New Tech Institute" and hope to go into engineering or architecture for a job ("could change").
-                    I thought programming would be beneficial to learn and useful in the future.
-                    Considered by most to be very plain or boring.
-                    Like wood working, drawing, and sleeping.
-                    I plan on attending college ("don't really care where I attend").
-                    Do happen to like job shadowing.
-                </div>
-
-            </aside>
-            <main>
-                <article>
-                    <div class="article-text">
-                        so what you doin
+                <aside>
+                    <div class="startin-picture">
+                        <img src="https://i.ibb.co/VQ4kWMH/Avaen-Rains-1.jpg">
                     </div>
-                </article>
-            </main>
-        </section>
+
+                    <div class="starting-text">
+                        <a>
+                            A little about me:
+                            <br>
+                            I am still in highschool attending New Tech Institute and hope to go into engineering or architecture ("could change").
+                            I thought programming would be beneficial to learn and would be useful in the future.
+                            I like wood working, and drawing.
+                            I plan on attending college ("don't really care where I attend").
+                            I plan on doing a couple job shadows in the near future.
+
+                        </a>
+                    </div>
+
+                </aside>
+                <main>
+                    <article>
+                        <div class="article-text">
+                            What are some past work experiences?
+                            <br>
+                            I have done sum hands on labor such as putting in drainage piping, roofing, framing, drywall, painting, decorative carving, landscaping, farming, soldering, insulation, and framing windows.
+                            <br>
+                            <br>
+                            Why do you want to learn how to program?
+                            <br>
+                            
+                            I would like to automate some of the jobs above or make the automation more efficient in them.
+
+                        </div>
+                    </article>
+                </main>
+            </section>
+        </div>
+        <div class="previous-projects">
+            <p>
+                <a class="project-text" href="https://gist.github.com/DashOfRain/242861643d1d53d73486440cf94806c7">The Hungry Chicken</a>
+                <img src="https://media2.giphy.com/media/KbfQBWOE6JYSkGqxcq/giphy.gif?cid=790b76110b6faa9e455673835275666e7fb6995a196fa1eb&amp;rid=giphy.gif&amp;ct=s">
+                <br>
+                <a class="project-text" href="https://gist.github.com/DashOfRain/3bf4e9212fc257a8b3ce642efc63061f">Crystal Ball</a>
+                <img src="https://play-lh.googleusercontent.com/j_ZBVsiKUktwaMHRgKEHavT8J9SbTIBqBPzY-Hr4FUt-CwFIqGg8WHRDtgGlWkjHcDA=w480-h960-rw">
+<br>
+                <a class="project-text" href="https://docs.google.com/presentation/d/1h-8LEUQQFz9stu8EWTGIHgkrn0irV68Y-FE_x3_HUkc/edit#slide=id.g13490ad2b54_0_35">Career Presentation</a>
+                <img src="https://www.brightcarbon.com/wp/wp-content/uploads/2017/04/5-ways-to-make-your-presentation-more-visual-and-effective-516x300-c-default.png">
+            </p>
+        </div>
+
+        <br>
+        <div class="email-box">
+
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Hehe I have the high ground Anakin...">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="ooooh shut it...">
+
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="write something random..." style="height:200px"></textarea>
+
+                <p>How I learned how to make the contact form: <a class="link-for-credits" href="https://www.w3schools.com/howto/howto_css_contact_form.asp">W3shchools_contact_form</a> </p>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </div>
         <footer>
-            Created by Avaen Rains; "I don't really know what i'm doin"
+            <div class="credits">
+                Copyright ©:2022 by Avaen Rains
+                <br>
+                Additional Credits: "Eric","Google","<a class="link-for-credits" href="https://www.w3schools.com">https://www.w3schools.com</a>","<a class="link-for-credits" href="https://www.w3schools.com/howto/howto_css_contact_form.asp">https://www.w3schools.com/howto/howto_css_contact_form.asp</a>","<a class="link-for-credits" href="https://unsplash.com/">https://unsplash.com/</a>"
+                
+            </div>
         </footer>
     
-</body></html>
+<script>
+/*__POPCODESTART__*/
+$(".topbar-button-about").click(function () {
+  $(".nav").removeClass("active");
+  $(".main-content-home").fadeIn();
+  $(".email-box").fadeOut();
+  $(".previous-projects").fadeOut();
+  $(".topbar-button-about").addClass("active");
+});
+$(".topbar-button-call").click(function () {
+  $(".email-box").fadeIn();
+  $(".main-content-home").fadeOut();
+  $(".nav").removeClass("active");
+  $(".topbar-button-call").addClass("active");
+  $(".previous-projects").fadeOut();
+});
+$(".topbar-button-P_Work").click(function () {
+  $(".email-box").fadeOut();
+  $(".main-content-home").fadeOut();
+  $(".nav").removeClass("active");
+  $(".topbar-button-P_Work").addClass("active");
+  $(".previous-projects").fadeIn();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsInJlbW92ZUNsYXNzIiwiZmFkZUluIiwiZmFkZU91dCIsImFkZENsYXNzIl0sIm1hcHBpbmdzIjoiQUFBQUEsQ0FBQyxDQUFDLHNCQUFELENBQUQsQ0FBMEJDLEtBQTFCLENBQWdDLFlBQVc7QUFDdkNELEVBQUFBLENBQUMsQ0FBQyxNQUFELENBQUQsQ0FBVUUsV0FBVixDQUFzQixRQUF0QjtBQUNBRixFQUFBQSxDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkcsTUFBeEI7QUFDQUgsRUFBQUEsQ0FBQyxDQUFDLFlBQUQsQ0FBRCxDQUFnQkksT0FBaEI7QUFDQUosRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JJLE9BQXhCO0FBQ0FKLEVBQUFBLENBQUMsQ0FBQyxzQkFBRCxDQUFELENBQTBCSyxRQUExQixDQUFtQyxRQUFuQztBQUNILENBTkQ7QUFRQUwsQ0FBQyxDQUFDLHFCQUFELENBQUQsQ0FBeUJDLEtBQXpCLENBQStCLFlBQVc7QUFDdENELEVBQUFBLENBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JHLE1BQWhCO0FBQ0FILEVBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCSSxPQUF4QjtBQUNBSixFQUFBQSxDQUFDLENBQUMsTUFBRCxDQUFELENBQVVFLFdBQVYsQ0FBc0IsUUFBdEI7QUFDQUYsRUFBQUEsQ0FBQyxDQUFDLHFCQUFELENBQUQsQ0FBeUJLLFFBQXpCLENBQWtDLFFBQWxDO0FBQ0FMLEVBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCSSxPQUF4QjtBQUNILENBTkQ7QUFRQUosQ0FBQyxDQUFDLHVCQUFELENBQUQsQ0FBMkJDLEtBQTNCLENBQWlDLFlBQVc7QUFDeENELEVBQUFBLENBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JJLE9BQWhCO0FBQ0FKLEVBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCSSxPQUF4QjtBQUNBSixFQUFBQSxDQUFDLENBQUMsTUFBRCxDQUFELENBQVVFLFdBQVYsQ0FBc0IsUUFBdEI7QUFDQUYsRUFBQUEsQ0FBQyxDQUFDLHVCQUFELENBQUQsQ0FBMkJLLFFBQTNCLENBQW9DLFFBQXBDO0FBQ0FMLEVBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCRyxNQUF4QjtBQUNILENBTkQiLCJzb3VyY2VzQ29udGVudCI6WyIkKFwiLnRvcGJhci1idXR0b24tYWJvdXRcIikuY2xpY2soZnVuY3Rpb24oKSB7XG4gICAgJChcIi5uYXZcIikucmVtb3ZlQ2xhc3MoXCJhY3RpdmVcIik7XG4gICAgJChcIi5tYWluLWNvbnRlbnQtaG9tZVwiKS5mYWRlSW4oKTtcbiAgICAkKFwiLmVtYWlsLWJveFwiKS5mYWRlT3V0KCk7XG4gICAgJChcIi5wcmV2aW91cy1wcm9qZWN0c1wiKS5mYWRlT3V0KCk7XG4gICAgJChcIi50b3BiYXItYnV0dG9uLWFib3V0XCIpLmFkZENsYXNzKFwiYWN0aXZlXCIpO1xufSk7XG5cbiQoXCIudG9wYmFyLWJ1dHRvbi1jYWxsXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuZW1haWwtYm94XCIpLmZhZGVJbigpO1xuICAgICQoXCIubWFpbi1jb250ZW50LWhvbWVcIikuZmFkZU91dCgpO1xuICAgICQoXCIubmF2XCIpLnJlbW92ZUNsYXNzKFwiYWN0aXZlXCIpO1xuICAgICQoXCIudG9wYmFyLWJ1dHRvbi1jYWxsXCIpLmFkZENsYXNzKFwiYWN0aXZlXCIpO1xuICAgICQoXCIucHJldmlvdXMtcHJvamVjdHNcIikuZmFkZU91dCgpO1xufSk7XG5cbiQoXCIudG9wYmFyLWJ1dHRvbi1QX1dvcmtcIikuY2xpY2soZnVuY3Rpb24oKSB7XG4gICAgJChcIi5lbWFpbC1ib3hcIikuZmFkZU91dCgpO1xuICAgICQoXCIubWFpbi1jb250ZW50LWhvbWVcIikuZmFkZU91dCgpO1xuICAgICQoXCIubmF2XCIpLnJlbW92ZUNsYXNzKFwiYWN0aXZlXCIpO1xuICAgICQoXCIudG9wYmFyLWJ1dHRvbi1QX1dvcmtcIikuYWRkQ2xhc3MoXCJhY3RpdmVcIik7XG4gICAgJChcIi5wcmV2aW91cy1wcm9qZWN0c1wiKS5mYWRlSW4oKTtcbn0pOyJdfQ==</script></body></html>
