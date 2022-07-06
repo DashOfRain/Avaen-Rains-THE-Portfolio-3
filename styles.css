@@ -79,7 +79,7 @@ aside {
 }
 
 .project-text {
-    color: red;
+    color: blue;
 }
 
 .credits {
@@ -99,7 +99,7 @@ aside {
     justify-content: center;
 }
 
-.active {
+.active{
     background: black;
     color: white;
     border-radius: 50%;
